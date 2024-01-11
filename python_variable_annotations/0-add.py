@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-# To specify the data type.
+# python3 -c 'print(__import__("my_module").__doc__)'
+# python3 -c 'print(__import__("my_module").MyClass.__doc__)'
 
 
 def add(a: float, b: float) -> float:
