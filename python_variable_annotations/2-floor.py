@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
+""" Annotation to specify data types """
 
-""" To specify the data type/ annotation """
+import math
 
 
-def floor(n: float) -> float:
-    """ Floating floor """
-    return n
+def floor(n: float) -> int:
+    """ Returns the floor of the float """
+    return math.floor(n)
