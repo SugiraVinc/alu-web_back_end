@@ -19,7 +19,7 @@ def index() -> str:
     return render_template('0-index.html')
 
 
-"""Run the app"""
+""" Run the flask app"""
 
 
 if __name__ == '__main__':
