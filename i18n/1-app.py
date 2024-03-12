@@ -28,12 +28,14 @@ class Config:
 
 app.config.from_object(Config)
 
+
 @app.route('/')
 def index() -> str:
     """The home/index page
     """
 
     return render_template('1-index.html')
+
 
 """ Run the flask app"""
 
