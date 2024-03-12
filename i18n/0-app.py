@@ -16,6 +16,8 @@ app = Flask(__name__)
 # Define a route: URL path that the app responds to
 @app.route('/')
 def index() -> str:
+    """The home/index page.
+    """
     return render_template('0-index.html')
 
 
