@@ -1,0 +1,3 @@
+// sripts that lists all documents in the collection
+// db.createCollection("school")
+db.school.find().forEach(printjson);
