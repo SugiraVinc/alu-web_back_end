@@ -8,9 +8,9 @@ export default class Car {
   cloneCar() {
     const origin = this;
     return Object.assign(Object.create(Object.getPrototypeOf(origin)), {
-    _brand: undefined,
-    _motor: undefined,
-    _color: undefined,
+      _brand: undefined,
+      _motor: undefined,
+      _color: undefined,
     });
-    }
+  }
 }
