@@ -1,14 +1,9 @@
 // getListStudentIds that returns an array of ids from a list of object
-function updateUniqueItems(map) {
-  if (!(map instanceof Map)) {
-    throw new Error('Cannot process');
-  }
-
-  for (const [item, quantity] of map.entries()) {
-    if (quantity === 1) {
-    map.set(item, 100);
+function getListStudentIds(arrayOfObjects) {
+  if (!Array.isArray(arrayOfObjects)) {
+    return [];
     }
-  }
+    
+    return arrayOfObjects.map((student) => student.id);
 }
-
-export default updateUniqueItems;
+export default getListStudentIds;
