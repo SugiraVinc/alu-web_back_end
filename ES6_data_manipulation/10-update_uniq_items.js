@@ -1,6 +1,6 @@
 //  function named updateUniqueItems that returns
 // ...an updated map for all items with initial quantity at 1
-// It should accept a map as an argument. 
+// It should accept a map as an argument.
 // ... The map it accepts for argument is similar to the map
 // .. you create in the previous task
 // For each entry of the map where the quantity is 1,
